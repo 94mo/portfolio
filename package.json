@@ -1,0 +1,68 @@
+{
+  "name": "portfolio",
+  "version": "0.4.0",
+  "homepage": "https://mosesl.co",
+  "description": "Portfolio site for Moses Lee",
+  "repository": "https://github.com/moses555/portfolio.git",
+  "author": "Moses Lee <moses555@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "react-scripts-postcss": "4.0.0-mod1",
+    "@storybook/addon-a11y": "^6.1.0-rc.0",
+    "@storybook/addon-actions": "^6.1.0-rc.0",
+    "@storybook/addon-controls": "^6.1.0-rc.0",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "^6.1.0-rc.0",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "babel-loader": "^8.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "mdx-loader": "^3.0.2",
+    "prettier": "^2.1.2",
+    "react-snap": "1.23.0",
+    "source-map-explorer": "^2.5.0",
+    "stylelint": "^13.7.2",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^1.6.21",
+    "classnames": "^2.2.6",
+    "ios-inner-height": "^1.1.1",
+    "popmotion": "^8.7.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "5.2.0",
+    "react-transition-group": "^4.4.1",
+    "three": "^0.122.0"
+  },
+  "scripts": {
+    "start": "set PORT=80 && react-scripts start",
+    "build": "react-scripts build",
+    "build-storybook": "build-storybook -o build-storybook",
+    "postbuild": "react-snap",
+    "deploy": "firebase deploy --only hosting:portfolio",
+    "deploy-functions": "firebase deploy --only functions",
+    "deploy-storybook": "firebase deploy --only hosting:storybook",
+    "serve": "firebase serve --only hosting",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "analyze": "source-map-explorer 'build/static/js/*.js'"
+  },
+  "reactSnap": {
+    "skipThirdPartyRequests": true,
+    "headless": true,
+    "crawl": true
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "proxy": "https://mosesl.co"
+}

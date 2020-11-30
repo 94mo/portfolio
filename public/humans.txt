@@ -1,0 +1,32 @@
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+DESIGNER
+
+Moses Lee
+Designer, Full-Stack Developer
+
+Design tools:
+Figma
+InVision
+
+github.com/moses555
+
+_______________________________________________________________________________
+
+TECHNOLOGY
+
+React
+Storybook
+Three
+Firebase
+Popmotion
+
+_______________________________________________________________________________
+
+FONTS
+
+Gotham
+SFMono Regular
