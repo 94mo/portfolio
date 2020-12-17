@@ -1,17 +1,5 @@
 {
   "projects": {
-    "default": "codyb-aa338"
-  },
-  "targets": {
-    "codyb-aa338": {
-      "hosting": {
-        "portfolio": [
-          "codyb-aa338"
-        ],
-        "storybook": [
-          "storybook-aa338"
-        ]
-      }
-    }
+    "default": "mosesl-co-84085"
   }
 }

@@ -22,17 +22,17 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/moses-l-86235948/',
+    url: 'https://www.linkedin.com/in/94mo/',
     icon: 'linkedin',
   },
   {
     label: 'Dribbble',
-    url: 'https://dribbble.com/moses555',
+    url: 'https://dribbble.com/94mo',
     icon: 'dribbble',
   },
   {
     label: 'Github',
-    url: 'https://github.com/moses555',
+    url: 'https://github.com/94mo',
     icon: 'github',
   },
 ];

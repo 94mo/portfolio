@@ -5,7 +5,7 @@ addons.setConfig({
   theme: {
     ...themes.dark,
     brandImage: 'https://mosesl.co/icon.svg',
-    brandTitle: 'Cody Bennett Components',
+    brandTitle: 'Moses Lee Components',
     brandUrl: 'https://mosesl.co',
   },
 });

@@ -51,7 +51,7 @@ const Uses = () => {
                     <Link href="https://figma.com">Figma</Link> is my primary tool for
                     UI design these days. Made the switch from InVision in 2019 and haven't
                     looked back. I've also created{' '}
-                    <Link href="https://www.figma.com/@moses555">a few plugins</Link> that
+                    <Link href="https://www.figma.com/files/user/921125767203394555/plugins">a few plugins</Link> that
                     you can install.
                   </li>
                   <li>
@@ -95,7 +95,7 @@ const Uses = () => {
                     For 3D effects and image shaders I use{' '}
                     <Link href="https://threejs.org">three.js</Link>. It has a bit of a
                     learning curve but you can do some really powerful stuff with it. I
-                    have a few <Link href="https://codepen.io/moses555">experiments</Link> and{` `}
+                    have a few <Link href="https://codepen.io/94mo">experiments</Link> and{` `}
                     <Link to="/articles">articles</Link> about it.
                   </li>
                   <li>
